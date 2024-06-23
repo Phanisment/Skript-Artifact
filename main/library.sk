@@ -1,0 +1,7 @@
+import:
+	# Mythicmobs
+	io.lumine.mythic.bukkit.BukkitAPIHelper
+
+# castSkill(entity,skill)
+function castSkill(e: entity, s: string):
+	new BukkitAPIHelper().castSkill({_e}, {_s})
