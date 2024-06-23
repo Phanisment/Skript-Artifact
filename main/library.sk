@@ -1,12 +1,12 @@
 import:
-	# Mythicmobs
-	io.lumine.mythic.bukkit.BukkitAPIHelper
+  # Mythicmobs
+  io.lumine.mythic.bukkit.BukkitAPIHelper
 
 # castSkill(entity,skill)
 function castSkill(e: entity, s: string):
-	new BukkitAPIHelper().castSkill({_e}, {_s})
+  new BukkitAPIHelper().castSkill({_e}, {_s})
 
 # getNbt(item, tag) return value tag
 function getNbt(t: item, d: string) :: string:
-	set {_n} to string tag "%{_d}%" of nbt compound of {_t}
-	return {_n}
+  set {_n} to string tag "%{_d}%" of nbt compound of {_t}
+  return {_n}
