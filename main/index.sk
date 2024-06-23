@@ -1,10 +1,12 @@
 on load:
 	if file path "database/items" is not missing:
 		if {items::*} or {items::*::*} is not set:
-			set {_files::*} to all files of dir path "database/items"
+		loop all json files in dir "database/items" as files:
+			set {_ext} to extension of file path "database/items/%loop-file's name%"
+			if {_ext} = "json":
+				set {files::%loop-file's name%} to loop-file
 	else:
 		create file path "database/items/example.json" with text "{}"
-		
 
 on unload:
 	delete {items::*}
