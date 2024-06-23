@@ -1,3 +1,19 @@
+on load:
+	if file path "database/items" is not missing:
+		if {items::*} or {items::*::*} is not set:
+			set {_files::*} to all files of dir path "database/items"
+	else:
+		create file path "database/items/example.json" with text "{}"
+		
+
+on unload:
+	delete {items::*}
+	delete {items::*::*}
+
+on item held change:
+	if player's tool != air:
+		if getNbt(player's tool, "Artifact") = 
+
 on left click:
 	if attack cooldown of player = 1:
 		if getNbt(player's tool, "Type") = "left" or "left_click":
