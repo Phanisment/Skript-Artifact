@@ -1,6 +1,4 @@
 # Skript Artifact
-Description:
-- This Project is on Development
 
 Dependency:
 - Skript
