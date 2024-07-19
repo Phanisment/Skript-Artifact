@@ -1,27 +1,7 @@
-on load:
-  if file path "database/items" is not missing:
-    if {items::*} or {items::*} is not set:
-    loop all json files in dir "database/items" as files:
-      set {_ext} to extension of file path "database/items/%loop-file's name%"
-      if {_ext} = "json":
-        set {items::%loop-file's name%} to loop-file
-  else:
-    create file path "database/items/example.json" with text "{}"
-
-on unload:
-  delete {items::*}
-  delete {items::*::*}
-
-on item held change:
-  if player's tool != air:
-    if getNbt(player's tool, "Artifact") = 
-
 on left click:
-  if attack cooldown of player = 1:
-    if getNbt(player's tool, "Type") = "left" or "left_click":
-      castSkill(player, getNbt(player's tool, "Skill"))
+	if getNbt(player's tool, "Type") = "left" or "left_click":
+		castSkill(player, getNbt(player's tool, "Skill"))
 
 on damage:
-  if attack cooldown of attacker = 1:
-    if getNbt(attacker's tool, "Type") = "left" or "left_click":
-    castSkill(attacker, getNbt(attacker's tool, "Skill"))
+	if getNbt(attacker's tool, "Type") = "left" or "left_click":
+		castSkill(attacker, getNbt(attacker's tool, "Skill"))
