@@ -10,6 +10,7 @@ Feature:
 - Same as MythicCrucible but smaller version and its Free :D
 
 ## Documentation
+# Not implement, just a draft.
 
 Skill Activator:
 - `left_click` or  `left`
