@@ -2,7 +2,7 @@
 
 Dependency:
 - Skript
-- SkBee
+- NbtAPI
 - Skript-Reflect
 - Mythicmobs
 
