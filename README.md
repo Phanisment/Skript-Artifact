@@ -5,7 +5,7 @@
 
 Dependency:
 - Skript
-- [NNBT API](https://modrinth.com/plugin/nbtapi)
+- NbtAPI
 - Skript-Reflect
 - Mythicmobs
 
@@ -24,8 +24,7 @@ Skill Activator:
 - `shoot`
 - `use`
 
-Example
-
+### Example
 ```json
 {
   "items":{
