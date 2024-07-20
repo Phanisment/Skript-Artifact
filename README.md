@@ -10,7 +10,7 @@ Feature:
 - Same as MythicCrucible, MMOItems but smaller version and its Free :D
 
 ## Documentation
-# Not implement, just a draft.
+### Not implement, just a draft.
 
 Skill Activator:
 - `left_click` or  `left`
