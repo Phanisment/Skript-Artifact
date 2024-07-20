@@ -13,7 +13,7 @@ function getItem(p: player i: item) :: item:
 	return {_p}.getInventory().getItemInMainHand()
 
 function getNbt(t: item, d: string) :: string:
-	set {_nbt} to new NbtItem({_i})
+	set {_nbt} to NbtItem({_i})
 	if {_nbt}.hasKey({_d}) == true:
 		return {_nbt}.getString({_d})
 	else:
