@@ -5,7 +5,7 @@
 
 Dependency:
 - Skript
-- NbtAPI
+- [NNBT API](https://modrinth.com/plugin/nbtapi)
 - Skript-Reflect
 - Mythicmobs
 
