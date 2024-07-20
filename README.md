@@ -26,7 +26,7 @@ Skill Activator:
 
 Example
 
-> ```json
+```json
 {
   "items":{
     "<id>":{
