@@ -7,7 +7,7 @@ Dependency:
 - Mythicmobs
 
 Feature:
-- Same as MythicCrucible but smaller version and its Free :D
+- Same as MythicCrucible, MMOItems but smaller version and its Free :D
 
 ## Documentation
 # Not implement, just a draft.
