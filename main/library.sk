@@ -13,3 +13,4 @@ function getItem(p: player i: item) :: item:
 	return {_p}.getInventory().getItemInMainHand()
 
 function getNbt(t: item, d: string) :: string:
+	
