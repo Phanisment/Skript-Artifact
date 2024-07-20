@@ -1,5 +1,8 @@
 # Skript Artifact
 
+> [!CAUTION]
+> This project is just in development, use at your caution.
+
 Dependency:
 - Skript
 - NbtAPI
