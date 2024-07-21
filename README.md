@@ -30,11 +30,13 @@ Right Click:
 - `right_click_block`
 - `right_click_air`
 
+Use Item:
+
 Others:
 - `sneak` or `shift`
 - `consume`
 - `damaged`
-- `puckup`
+- `pickup`
 - `attack`
 - `shoot`
 - `drop`
