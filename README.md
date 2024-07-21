@@ -48,6 +48,9 @@ Skill Activator:
 
 
 # Plans on project
-[ ] Make own NBT using NMS
-[ ] File configuration item
+[ ] 
 [ ] Armor abilities 
+[ ] File configuration items
+[ ] Make own NBT using NMS
+[ ] Automatic updating of data from items to match those in the configuration file
+[ ] Modifying damage or attributes skill on configuration item
