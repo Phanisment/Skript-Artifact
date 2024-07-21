@@ -1,6 +1,6 @@
 ## Documentation
 > [!NOTE]
-> Not implement for now, Just idea the project
+> Not implement for now. Just idea the project.
 
 Skill Activator:
 - `left_click` or  `left`
