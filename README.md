@@ -32,7 +32,9 @@ Right Click:
 
 Others:
 - `sneak` or `shift`
+- `consume`
 - `damaged`
+- `puckup`
 - `attack`
 - `shoot`
 - `drop`
