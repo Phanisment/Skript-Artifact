@@ -30,6 +30,7 @@ Skill Activator:
 - `damaged`
 - `attack`
 - `shoot`
+- `drop`
 - `use`
 
 ### Example
