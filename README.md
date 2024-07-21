@@ -21,7 +21,11 @@ Feature:
 
 Skill Activator:
 - `left_click` or  `left`
+- `left_click_block`
+- `left_click_air`
 - `right_click` or `right`
+- `right_click_block`
+- `right_click_air`
 - `sneak` or `shift`
 - `damaged`
 - `attack`
