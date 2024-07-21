@@ -16,4 +16,4 @@
 - Same as MythicCrucible, MMOItems but smaller version and its Free :D
 
 > Fast Link
-- Documentation
+- [Documentation](https://github.com/Phanisment/Skript-Artifact/blob/development/DOCUMENTATION.md)
