@@ -19,13 +19,17 @@ Feature:
 > [!NOTE]
 > Not implement for now. Just idea the project.
 
-Skill Activator:
+### Skill Activator:
+Left Click:
 - `left_click` or  `left`
 - `left_click_block`
 - `left_click_air`
+Right Click:
 - `right_click` or `right`
 - `right_click_block`
 - `right_click_air`
+
+Others:
 - `sneak` or `shift`
 - `damaged`
 - `attack`
