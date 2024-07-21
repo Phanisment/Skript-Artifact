@@ -31,17 +31,17 @@ Skill Activator:
 ### Example
 ```json
 {
-	"items":{
-		"<id>":{
-			"displayname":"...",
-			"model": 1
-			"attributes":{
-				...
-			},
-			"ability":{
-				...
-			}
-		}
-	}
+  "items":{
+    "<id>":{
+      "displayname":"...",
+      "model": 1
+      "attributes":{
+        ...
+      },
+      "ability":{
+        ...
+      }
+    }
+  }
 }
 ```
