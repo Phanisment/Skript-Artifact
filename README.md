@@ -8,12 +8,12 @@
 
 Dependency:
 - [Skript](https://github.com/SkriptLang/Skript)
-- [NBT Api](https://github.com/tr7zw/Item-NBT-API)
+- [Skbee](https://github.com/ShaneBeee/SkBee)
 - [Skript-Reflect](https://github.com/SkriptLang/skript-reflect)
 - [MythicMobs](https://mythiccraft.io/index.php)
 
 Feature:
-- Same as MythicCrucible, MMOItems but smaller version and its Free :D
+- Same as MythicCrucible or MMOItems but smaller version and its Free :D
 
 ## Documentation
 > [!NOTE]
