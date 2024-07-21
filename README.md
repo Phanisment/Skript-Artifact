@@ -45,3 +45,9 @@ Skill Activator:
   }
 }
 ```
+
+
+# Plans on project
+[ ] Make own NBT using NMS
+[ ] File configuration item
+[ ] Armor abilities 
