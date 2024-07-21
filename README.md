@@ -31,16 +31,16 @@ Right Click:
 - `right_click_air`
 
 Use Item:
+- `consume`
+- `shoot`
+- `use`
 
 Others:
 - `sneak` or `shift`
-- `consume`
 - `damaged`
 - `pickup`
 - `attack`
-- `shoot`
 - `drop`
-- `use`
 
 ### Example
 ```json
