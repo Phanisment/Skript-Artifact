@@ -1,7 +1,7 @@
 # Skript Artifact
 
 > [!CAUTION]
-> This project is just in development, use at your caution.
+> This project is just in development.
 
 ### Project Icon
 ![Skript-Artifact](https://i.imgur.com/4HjhL4g.png)
