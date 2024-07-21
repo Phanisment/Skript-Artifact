@@ -24,6 +24,7 @@ Left Click:
 - `left_click` or  `left`
 - `left_click_block`
 - `left_click_air`
+
 Right Click:
 - `right_click` or `right`
 - `right_click_block`
