@@ -6,14 +6,42 @@
 ### Project Icon
 ![Skript-Artifact](https://i.imgur.com/4HjhL4g.png)
 
-> Dependency:
+Dependency:
 - [Skript](https://github.com/SkriptLang/Skript)
 - [NBT Api](https://github.com/tr7zw/Item-NBT-API)
 - [Skript-Reflect](https://github.com/SkriptLang/skript-reflect)
 - [MythicMobs](https://mythiccraft.io/index.php)
 
-> Feature:
+Feature:
 - Same as MythicCrucible, MMOItems but smaller version and its Free :D
 
-> Fast Link
-- [Documentation](https://github.com/Phanisment/Skript-Artifact/blob/development/DOCUMENTATION.md)
+## Documentation
+> [!NOTE]
+> Not implement for now. Just idea the project.
+
+Skill Activator:
+- `left_click` or  `left`
+- `right_click` or `right`
+- `sneak` or `shift`
+- `damaged`
+- `attack`
+- `shoot`
+- `use`
+
+### Example
+```json
+{
+  "items":{
+    "<id>":{
+      "displayname":"...",
+      "model": 1
+      "attributes":{
+        ...
+      },
+      "ability":{
+        ...
+      }
+    }
+  }
+}
+```
