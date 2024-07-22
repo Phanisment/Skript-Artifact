@@ -68,6 +68,7 @@ Others:
 # Plans on project
 - [ ] Item abilities activator
 - [ ] Armor abilities activator
+- [ ] Make own configuration file(For reduce dependency of plugins)
 - [ ] File configuration items
 - [ ] Make own NBT using NMS(For reduce dependency of plugin)
 - [ ] Automatic updating of data from items to match those in the configuration file
