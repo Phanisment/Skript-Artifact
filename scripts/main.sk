@@ -1,7 +1,27 @@
-on left click:
-	if getNbt(player's tool, "Type") = "left" or "left_click":
-		castSkill(player, getNbt(player's tool, "Skill"))
+import:
+	org.bukkit.entity.Player
+	org.bukkit.event.player.PlayerInteractEvent
+	org.bukkit.event.block.Action
 
-on damage:
-	if getNbt(attacker's tool, "Type") = "left" or "left_click":
-		castSkill(attacker, getNbt(attacker's tool, "Skill"))
+on PlayerInteractEvent:
+	set {_player} to PlayerInteractEvent.getPlayer()
+	
+	# left_click
+	if PlayerInteractEvent.getAction() = Action.LEFT_CLICK_AIR or Action.LEFT_CLICK_BLOCK:
+		if isArtifact(getItemInHand({_player})) = true:
+			set {_skillSlot} to getNbtItem(getItemInHand({_player}), "SkillSlot")
+			set {_Type} to getNbtItem(getItemInHand({_player}), "Type")
+			
+			if {_skillSlot} is not set:
+				set {_skillSlot} to 6
+			
+			loop {_skillSlot} time:
+				set {_loop-number} to getNbtItem(getItemInHand({_player}), "Ability%loop-number%")
+				if {_loop-number} is set:
+						if {_Type} = "left" or "left_click":
+							castSkill({_player}, getNbtItem(getItemInHand({_player}), "Skill"))
+		else if isArtifact(getItemInHand({_player})) = false:
+			resetNbt(getItemInHand({_player}))
+	
+	else if PlayerInteractEvent.getAction() = Action.RIGHT_CLICK_AIR or Action.RIGHT_CLICK_BLOCK:
+		if isArtifact(getItemInHand({_player})) = true:
