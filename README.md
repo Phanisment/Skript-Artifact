@@ -9,6 +9,7 @@
 Dependency:
 - [Skript](https://github.com/SkriptLang/Skript)
 - [Skbee](https://github.com/ShaneBeee/SkBee)
+- [Skript-Json](https://github.com/btk5h/skript-json)
 - [Skript-Reflect](https://github.com/SkriptLang/skript-reflect)
 - [MythicMobs](https://mythiccraft.io/index.php)
 
