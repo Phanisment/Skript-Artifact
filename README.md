@@ -25,12 +25,12 @@ System Code:
 
 ### Skill Activator:
 Left Click:
-- `left_click` or  `left`
+- `left_click`
 - `left_click_block`
 - `left_click_air`
 
 Right Click:
-- `right_click` or `right`
+- `right_click`
 - `right_click_block`
 - `right_click_air`
 
@@ -40,10 +40,10 @@ Use Item:
 - `use`
 
 Others:
-- `sneak` or `shift`
 - `damaged`
 - `pickup`
 - `attack`
+- `shift`
 - `drop`
 
 ### Example
