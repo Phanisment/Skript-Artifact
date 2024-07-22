@@ -70,6 +70,5 @@ Others:
 - [ ] Armor abilities activator
 - [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] File configuration items
-- [ ] Make own NBT dys system using NMS(For reduce dependency of plugin)
-- [ ] Automatic updating of data from items to match those in the configuration file
+- [ ] Make own NBT system system using NMS(For reduce dependency of plugin)
 - [ ] Modifying damage or attributes skill on configuration item
