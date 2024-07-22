@@ -1,19 +1,66 @@
 import:
+  org.bukkit.Bukkit
+
+option server_version:
+	get:
+		return Bukkit.getServer().getClass().getPackage().getName().split("\.")[3]
+
+import:
+	net.minecraft.server.{@server_version}.ItemStack
+	net.minecraft.server.{@server_version}.NBTTagCompound
+	org.bukkit.craftbukkit.{@server_version}.inventory.CraftItemStack
+	
 	io.lumine.mythic.bukkit.BukkitAPIHelper
 	
+	org.bukkit.entity.Player
 	org.bukkit.inventory.ItemStack
-	org.bukkit.Material
 	
-	de.tr7zw.changeme.nbtapi.NBTItem
+	com.google.gson.JsonParser
+	com.google.gson.JsonObject
+	com.google.gson.JsonArray
+	
+	java.io.FileReader
 
 function castSkill(e: entity, s: string):
 	new BukkitAPIHelper().castSkill({_e}, {_s})
 
-function getItem(p: player, i: item) :: item:
+function getItemInHand(p: player) :: item:
 	return {_p}.getInventory().getItemInMainHand()
 
-function getNbt(t: item, d: string) :: string:
-	if NbtItem({_i}).hasKey({_d}) == true:
-		return NbtItem({_i}).getString({_d})
+function getNbtItemInHand(p: player, s: string) :: string:
+	set {_item} to {_player}.getInventory().getItemInMainHand()
+	set {_nmsItem} to CraftItemStack.asNMSCopy({_item})
+	 
+	if {_nmsItem}.hasTag() = true:
+		set {_nbt} to {_nmsItem}.getTag() 
+	else:
+		set {_nbt} to new NBTTagCompound()
+
+	set {_customData} to {_nbt}.getString({_s})
+	
+	return {_customData}
+
+function getNbtItem(i: item, s: string) :: string:
+	set {_nbt} to string tag "%{_s}%" of nbt compound of {_i}
+	return {_nbt}
+
+function resetNbt(i: item):
+	reset nbt of {_i}
+
+function isArtifact(i: item) :: boolean:
+	set {_a} to getNbtItem({_i}, "isArtifact")
+	if {_a} = "true":
+		return true
+	else:
+		return false
+
+function loadFile(file: string) :: object:
+	set {_reader} to new FileReader({_file})
+	set {_jsonParser} to new JsonParser()
+	set {_jsonElement} to {_jsonParser}.parse({_reader})
+	set {_jsonObject} to {_jsonElement}.getAsJsonObject()
+	
+	if {_jsonObject} is set:
+		return {_jsonObject}
 	else:
 		return null
