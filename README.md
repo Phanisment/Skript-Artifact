@@ -80,12 +80,12 @@ Others:
 
 
 # Plans on project
+- [ ] Oraxen support
+- [ ] Itemsadder support
 - [ ] Item abilities activator
 - [ ] Armor abilities activator
 - [ ] File configuration items
-- [ ] Itemsadder support
-- [ ] Oraxen support
 - [ ] Change file configuration to YML without addon plugin
-- [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
-- [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] Modifying damage or attributes skill on configuration item
+- [ ] Make own Json system array list(For reduce dependency of plugins)
+- [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
