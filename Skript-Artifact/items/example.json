@@ -1,1 +1,31 @@
-
+{
+	"items":[
+		{
+			"wooden_katana": {
+				"displayname": "Wooden Katana",
+				"material": "wooden_sword",
+				"model": 1,
+				"attributes": {
+					"unbreakable": true
+				},
+				"ability": [
+					{"skill":"dash", "type":"right_click"}
+				]
+			}
+		},
+		{
+			"iron_katana": {
+				"displayname": "Iron Katana",
+				"material": "wooden_sword",
+				"model": 2,
+				"attributes": {
+					"unbreakable": true
+				},
+				"ability": [
+					{"skill":"dash", "type":"right_click"},
+					{"skill":"slash", "type":"left_click"}
+				]
+			}
+		}
+	]
+}
