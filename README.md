@@ -20,6 +20,7 @@ System Code:
 - Read file configuration and add nbt to item same as name of file and detect if item name is same, get data in configuration and activate not like data on item, so you cant make same item but deference data.
 
 ## Documentation
+
 > [!NOTE]
 > Not implement for now. Just idea the project.
 
