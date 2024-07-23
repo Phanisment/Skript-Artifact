@@ -49,18 +49,20 @@ Others:
 ### Example
 ```json
 {
-  "items":{
-    "<id>":{
-      "displayname":"...",
-      "model": 1
-      "attributes":{
-        ...
-      },
-      "ability":{
-        ...
+  "items":[
+    { 
+      "<item_id>":{
+        "displayname":"<name>",
+        "model": 1
+        "attributes":{
+          ...
+        },
+        "ability":{
+          ...
+        }
       }
     }
-  }
+  ]
 }
 ```
 
