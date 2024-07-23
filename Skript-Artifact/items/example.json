@@ -9,7 +9,7 @@
 					"unbreakable": true
 				},
 				"ability": [
-					{"skill":"dash", "type":"right_click"}
+					{"skill":"dash", "type":"right_click", "cooldown": 60}
 				]
 			}
 		},
@@ -22,8 +22,8 @@
 					"unbreakable": true
 				},
 				"ability": [
-					{"skill":"dash", "type":"right_click"},
-					{"skill":"slash", "type":"left_click", "cooldown_message":false}
+					{"skill":"dash", "type":"right_click", "cooldown": 40},
+					{"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
 				]
 			}
 		}
