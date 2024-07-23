@@ -83,6 +83,8 @@ Others:
 - [ ] Item abilities activator
 - [ ] Armor abilities activator
 - [ ] File configuration items
+- [ ] Itemsadder support
+- [ ] Oraxen support
 - [ ] Change file configuration to YML without addon plugin
 - [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
 - [ ] Make own Json system array list(For reduce dependency of plugins)
