@@ -52,31 +52,29 @@ Others:
 {
   "items":[
     {
-      "wooden_katana": {
-        "displayname": "Wooden Katana",
-        "material": "wooden_sword",
-        "model": 1,
-        "attributes": {
-          "unbreakable": true
-        },
-        "ability": [
-          {"skill":"dash", "type":"right_click", "cooldown": 60}
-        ]
-      }
+      "id": "wooden_katana",
+      "displayname": "Wooden Katana",
+      "material": "wooden_sword",
+      "model": 1,
+      "attributes": {
+        "unbreakable": true
+      },
+      "ability": [
+        {"skill":"dash", "type":"right_click", "cooldown": 60}
+      ]
     },
     {
-      "iron_katana": {
-        "displayname": "Iron Katana",
-        "material": "wooden_sword",
-        "model": 2,
-        "attributes": {
-          "unbreakable": true
-        },
-        "ability": [
-          {"skill":"dash", "type":"right_click", "cooldown": 40},
-          {"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
-        ]
-      }
+      "id": "iron_katana",
+      "displayname": "Iron Katana",
+      "material": "wooden_sword",
+      "model": 2,
+      "attributes": {
+        "unbreakable": true
+      },
+      "ability": [
+        {"skill":"dash", "type":"right_click", "cooldown": 40},
+        {"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
+      ]
     }
   ]
 }
