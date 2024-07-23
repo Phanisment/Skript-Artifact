@@ -23,7 +23,7 @@
 				},
 				"ability": [
 					{"skill":"dash", "type":"right_click"},
-					{"skill":"slash", "type":"left_click"}
+					{"skill":"slash", "type":"left_click", "cooldown_message":false}
 				]
 			}
 		}
