@@ -47,7 +47,7 @@ Others:
 - `shift`
 - `drop`
 
-### Example
+### Example:
 ```json
 {
   "items":[
