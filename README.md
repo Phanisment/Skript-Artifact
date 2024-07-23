@@ -68,7 +68,8 @@ Others:
 # Plans on project
 - [ ] Item abilities activator
 - [ ] Armor abilities activator
-- [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] File configuration items
-- [ ] Make own NBT system system using NMS(For reduce dependency of plugin)
+- [ ] Change file configuration to YML without addon plugin
+- [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
+- [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] Modifying damage or attributes skill on configuration item
