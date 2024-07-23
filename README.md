@@ -50,14 +50,26 @@ Others:
 ```json
 {
   "items":[
-    { 
-      "<item_id>":{
-        "displayname":"<name>",
-        "model": 1
-        "attributes":{
+    {
+      "<item_id>": {
+        "displayname": "<name>",
+        "model": 1,
+        "attributes": {
           ...
         },
-        "ability":{
+        "ability": {
+          ...
+        }
+      }
+    },
+    {
+      "<item_id>": {
+        "displayname": "<name>",
+        "model": 2,
+        "attributes": {
+          ...
+        },
+        "ability": {
           ...
         }
       }
