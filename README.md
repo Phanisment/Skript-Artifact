@@ -52,27 +52,30 @@ Others:
 {
   "items":[
     {
-      "<item_id>": {
-        "displayname": "<name>",
+      "wooden_katana": {
+        "displayname": "Wooden Katana",
+        "material": "wooden_sword",
         "model": 1,
         "attributes": {
-          ...
+          "unbreakable": true
         },
-        "ability": {
-          ...
-        }
+        "ability": [
+          {"skill":"dash", "type":"right_click", "cooldown": 60}
+        ]
       }
     },
     {
-      "<item_id>": {
-        "displayname": "<name>",
+      "iron_katana": {
+        "displayname": "Iron Katana",
+        "material": "wooden_sword",
         "model": 2,
         "attributes": {
-          ...
+          "unbreakable": true
         },
-        "ability": {
-          ...
-        }
+        "ability": [
+          {"skill":"dash", "type":"right_click", "cooldown": 40},
+          {"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
+        ]
       }
     }
   ]
@@ -81,12 +84,12 @@ Others:
 
 
 # Plans on project
-- [ ] \(Optional) Oraxen support
-- [ ] \(Optional) Itemsadder support
+- [ ] Oraxen support
+- [ ] Itemsadder support
 - [ ] Item abilities activator
 - [ ] Armor abilities activator
 - [ ] File configuration items
-- [ ] \(Optional) Change file configuration to YML without addon plugin
-- [ ] \(Optional) Modifying damage or attributes skill on configuration item
+- [ ] Change file configuration to YML without addon plugin
+- [ ] Modifying damage or attributes skill on configuration item
 - [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
