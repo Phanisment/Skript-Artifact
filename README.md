@@ -3,9 +3,6 @@
 > [!CAUTION]
 > This project is just in development.
 
-### Project Icon
-![Skript-Artifact](https://i.imgur.com/4HjhL4g.png)
-
 Dependency:
 - [Skript](https://github.com/SkriptLang/Skript)
 - [Skbee](https://github.com/ShaneBeee/SkBee)
