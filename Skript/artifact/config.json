@@ -1,4 +1,5 @@
 {
 	"version": 0.1,
-	"abilities_slot": 6
+	"abilities_slot": 6,
+	"enable_example_items": true
 }
