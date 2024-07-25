@@ -1,6 +1,4 @@
 {
 	"version": 0.1,
-	"file": [
-		{"path":"./plugins/Skript/artifact/item"}
-	]
+	"abilities_slot": 6
 }
