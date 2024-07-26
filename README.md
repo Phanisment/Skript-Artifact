@@ -35,7 +35,8 @@ Feature:
 |`use`                                             |                                                  |
 
 <details open>
-<summary>Example Configuration</summary>
+	<summary>Example Configuration</summary>
+	<h6>
 ```json
 {
   "items":[
@@ -67,6 +68,7 @@ Feature:
   ]
 }
 ```
+	</h6>
 </details>
 
 # Plans on project
