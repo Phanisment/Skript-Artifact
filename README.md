@@ -77,6 +77,19 @@ Feature:
 
 </details>
 
+### Configuration
+<details open>
+  <summary>config.json</summary>
+
+```
+{
+  "version": 0.1,
+}
+```
+
+</details>
+
+
 
 # Plans for Project
 <details close>
