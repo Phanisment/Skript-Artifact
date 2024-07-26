@@ -2,6 +2,7 @@
 <p>
 	<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
 	<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
+	<img alt="License" src="https://img.shields.io/badge/Licence-MIT_License-light?style=flat">
 </p>
 
 > [!CAUTION]
