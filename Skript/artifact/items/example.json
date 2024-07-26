@@ -1,28 +1,13 @@
 {
-	"items":[
+	"items": [
 		{
-			"id": "wooden_katana",
-			"displayname": "Wooden Katana",
+			"permission": "example.wooden_bat",
+			"type": "item",
 			"material": "wooden_sword",
+			"displayname": "Wooden Bat",
 			"model": 1,
-			"attributes": {
-				"unbreakable": true
-			},
-			"ability": [
-				{"skill":"dash", "type":"right_click", "cooldown": 60}
-			]
-		},
-		{
-			"id": "iron_katana",
-			"displayname": "Iron Katana",
-			"material": "wooden_sword",
-			"model": 2,
-			"attributes": {
-				"unbreakable": true
-			},
-			"ability": [
-				{"skill":"dash", "type":"right_click", "cooldown": 40},
-				{"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
+			"abilities": [
+				{"id":"slash", "event":"left_click"}
 			]
 		}
 	]
