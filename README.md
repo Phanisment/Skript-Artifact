@@ -1,5 +1,5 @@
 # Skript Artifact
-<p align="left">
+<p align="right">
 	<img alt="Language" src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
 	<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
 </p>
