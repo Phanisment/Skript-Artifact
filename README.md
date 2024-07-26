@@ -1,6 +1,8 @@
 # Skript Artifact
 <p>
-	<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
+	<a href="https://avatars.githubusercontent.com/u/39464898?s=200&v=4">
+		<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
+	</p>
 	<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
 	<img alt="License" src="https://img.shields.io/badge/Licence-MIT_License-light?style=flat">
 </p>
