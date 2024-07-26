@@ -3,8 +3,8 @@
 > This project is just in development.
 
 <p>
-	<img alt="Language" src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
-	<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
+  <img alt="Language" src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
 </p>
 
 Dependency:
@@ -40,36 +40,37 @@ Feature:
 |`shift`|When player is Sneaking|
 
 <details open>
-	<summary>Example Configuration</summary>
+  <summary>Example File Configuration</summary>
 
 ```json
 {
-  "items":[
+  "items": [
     {
-      "id": "wooden_katana",
-      "displayname": "Wooden Katana",
-      "material": "wooden_sword",
+      "permission": "example.wooden_bat",
+      "type": "wooden_sword",
+      "displayname": "Wooden Bat",
       "model": 1,
-      "attributes": {
-        "unbreakable": true
-      },
-      "ability": [
-        {"skill":"dash", "type":"right_click", "cooldown": 60}
-      ]
-    },
-    {
-      "id": "iron_katana",
-      "displayname": "Iron Katana",
-      "material": "wooden_sword",
-      "model": 2,
-      "attributes": {
-        "unbreakable": true
-      },
-      "ability": [
-        {"skill":"dash", "type":"right_click", "cooldown": 40},
-        {"skill":"slash", "type":"left_click", "cooldown": 2, "cooldown_warn":false}
+      "abilities": [
+        {"id":"dash", "event":"right_click"}
       ]
     }
+  ]
+}
+```
+
+</details>
+
+<details open>
+<summary>Example Item Nbt</summary>
+
+```nbt
+{
+  display{
+    Name:'{"text":"Wooden Bat","italic":false}'
+  },
+  CustomModelData:1,
+  Abilities:[
+    {id:"dash", event:"right_click"}
   ]
 }
 ```
@@ -79,7 +80,7 @@ Feature:
 
 # Plans for Project
 <details close>
-	<summary>Plans</summary>
+  <summary>Plans</summary>
 
 - [ ] Oraxen support
 - [ ] Itemsadder support
