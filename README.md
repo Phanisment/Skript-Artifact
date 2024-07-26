@@ -63,7 +63,7 @@ Feature:
 <details open>
 <summary>Example Item Nbt</summary>
 
-```mcfunction
+```
 {
   display{
     Name:'{"text":"Wooden Bat","italic":false}'
