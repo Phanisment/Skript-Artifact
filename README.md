@@ -35,7 +35,7 @@ Feature:
 |`use`                                             |                                                  |
 
 <details open>
-	<summary>Example Configuration</summary>
+<summary>Example Configuration</summary>
 ```json
 {
   "items":[
