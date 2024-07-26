@@ -22,7 +22,7 @@ Feature:
 > [!NOTE]
 > Not implement for now. Just idea the project.
 
-### Skill Activator:
+### Skill Trigger:
 
 |Value|Description|
 |---|---|
