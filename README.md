@@ -22,27 +22,17 @@ System Code:
 > Not implement for now. Just idea the project.
 
 ### Skill Activator:
-Left Click:
-- `left_click`
-- `left_click_block`
-- `left_click_air`
 
-Right Click:
 - `right_click`
-- `right_click_block`
-- `right_click_air`
-
-Use Item:
-- `consume`
-- `shoot`
-- `use`
-
-Others:
+- `left_click`
 - `damaged`
+- `consume`
 - `pickup`
 - `attack`
+- `shoot`
 - `shift`
 - `drop`
+- `use`
 
 ### Example:
 ```json
