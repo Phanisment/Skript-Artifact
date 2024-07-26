@@ -1,4 +1,10 @@
 # Skript Artifact
+<p align="center">
+	<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
+	<img alt="Static Badge" src="https://img.shields.io/badge/Type-dev-red?style=flat">
+	<img alt="Static Badge" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
+	
+</p>
 
 > [!CAUTION]
 > This project is just in development.
@@ -19,7 +25,8 @@ Feature:
 > Not implement for now. Just idea the project.
 
 ### Skill Activator:
-
+<details open>
+	<summary>Event Tag</summary>
 |Value                                             |Description                                       |
 |--------------------------------------------------|--------------------------------------------------|
 |`right_click`                                     |Like using Fishing Rod or other righ clicked items|
@@ -32,8 +39,11 @@ Feature:
 |`shift`                                           |                                                  |
 |`drop`                                            |                                                  |
 |`use`                                             |                                                  |
+</details>
+
 
 ### Example:
+<
 ```json
 {
   "items":[
