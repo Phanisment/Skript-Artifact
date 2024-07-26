@@ -63,7 +63,7 @@ Feature:
 <details open>
 <summary>Example Item Nbt</summary>
 
-```json
+```mcfunction
 {
   display{
     Name:'{"text":"Wooden Bat","italic":false}'
