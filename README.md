@@ -24,18 +24,18 @@ Feature:
 
 ### Skill Activator:
 
-|Value                                             |Description                                       |
-|--------------------------------------------------|--------------------------------------------------|
-|`right_click`                                     |Like using Fishing Rod or other righ clicked items|
-|`left_click`                                      |When attack or hit air and block                  |
-|`damaged`                                         |When player get hit                               |
-|`consume`                                         |Like consume potion or Eat food                   |
-|`pickup`                                          |                                                  |
-|`attack`                                          |                                                  |
-|`shoot`                                           |                                                  |
-|`shift`                                           |                                                  |
-|`drop`                                            |                                                  |
-|`use`                                             |                                                  |
+|Value|Description|
+|---|---|
+|`right_click`|Like using Fishing Rod or other righ clicked items|
+|`left_click`|When attack or hit air and block|
+|`damaged`|When player get hit|
+|`consume`|Like consume potion or Eat food|
+|`pickup`|Pickup dropped item|
+|`attack`|When player attack entity or player, like right_click but deference|
+|`shoot`|When player use bow|
+|`shift`|When player is Sneaking|
+|`drop`|When Dropped item|
+|`use`|When use item, just lime consume or right click event|
 
 <details open>
 	<summary>Example Configuration</summary>
