@@ -74,8 +74,10 @@ Feature:
 
 </details>
 
+
+# Plans for Project
 <details close>
-	<summary>Plans for Project</summary>
+	<summary>Plans</summary>
 
 - [ ] Oraxen support
 - [ ] Itemsadder support
