@@ -1,6 +1,8 @@
 # Skript Artifact
-<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
-<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
+<p>
+	<img alt="Language" alight=center src="https://img.shields.io/badge/Language-Skript-orange?style=flat">
+	<img alt="Version" src="https://img.shields.io/badge/Version-0.1--dev-light?style=flat">
+</p>
 
 > [!CAUTION]
 > This project is just in development.
@@ -21,6 +23,7 @@ Feature:
 > Not implement for now. Just idea the project.
 
 ### Skill Activator:
+
 |Value                                             |Description                                       |
 |--------------------------------------------------|--------------------------------------------------|
 |`right_click`                                     |Like using Fishing Rod or other righ clicked items|
