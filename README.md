@@ -25,8 +25,6 @@ Feature:
 > Not implement for now. Just idea the project.
 
 ### Skill Activator:
-<details open>
-	<summary>Event Tag</summary>
 |Value                                             |Description                                       |
 |--------------------------------------------------|--------------------------------------------------|
 |`right_click`                                     |Like using Fishing Rod or other righ clicked items|
@@ -39,7 +37,6 @@ Feature:
 |`shift`                                           |                                                  |
 |`drop`                                            |                                                  |
 |`use`                                             |                                                  |
-</details>
 
 
 ### Example:
