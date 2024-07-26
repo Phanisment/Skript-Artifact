@@ -74,7 +74,9 @@ Feature:
 
 </details>
 
-# Plans on project
+<details close>
+	<summary>Plans for Project</summary>
+
 - [ ] Oraxen support
 - [ ] Itemsadder support
 - [ ] Item abilities activator
@@ -84,3 +86,5 @@ Feature:
 - [ ] Modifying damage or attributes skill on configuration item
 - [ ] Make own Json system array list(For reduce dependency of plugins)
 - [ ] Make own NBT system system using NMS(For reduce dependency of plugins)
+
+</details>
