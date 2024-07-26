@@ -13,9 +13,6 @@ Dependency:
 Feature:
 - Same as MythicCrucible or MMOItems but smaller version and its Free :D
 
-System Code:
-- Read file configuration and add nbt to item same as name of file and detect if item name is same, get data in configuration and activate not like data on item, so you cant make same item but deference data.
-
 ## Documentation
 
 > [!NOTE]
@@ -23,16 +20,18 @@ System Code:
 
 ### Skill Activator:
 
-- `right_click`
-- `left_click`
-- `damaged`
-- `consume`
-- `pickup`
-- `attack`
-- `shoot`
-- `shift`
-- `drop`
-- `use`
+|Value                                             |Description                                       |
+|--------------------------------------------------|--------------------------------------------------|
+|`right_click`                                     |Like using Fishing Rod or other righ clicked items|
+|`left_click`                                      |When attack or hit air and block                  |
+|`damaged`                                         |When player get hit                               |
+|`consume`                                         |Like consume potion or Eat food                   |
+|`pickup`                                          |                                                  |
+|`attack`                                          |                                                  |
+|`shoot`                                           |                                                  |
+|`shift`                                           |                                                  |
+|`drop`                                            |                                                  |
+|`use`                                             |                                                  |
 
 ### Example:
 ```json
