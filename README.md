@@ -34,9 +34,8 @@ Feature:
 |`drop`                                            |                                                  |
 |`use`                                             |                                                  |
 
-
-### Example:
-<
+<details open>
+	<summary>Example Configuration</summary>
 ```json
 {
   "items":[
@@ -68,7 +67,7 @@ Feature:
   ]
 }
 ```
-
+</details>
 
 # Plans on project
 - [ ] Oraxen support
