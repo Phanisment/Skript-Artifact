@@ -28,16 +28,16 @@ Feature:
 |---|---|
 |`right_click`|Like using Fishing Rod or other righ clicked items|
 |`left_click`|When attack or hit air and block|
-|`damaged`|When player get hit|
-|`unequip`|When player unequip armor|
-|`consume`|Like consume potion or Eat food|
-|`pickup`|Pickup dropped item|
 |`attack`|When player attack entity or player, like right_click but deference|
-|`shoot`|When player use bow|
+|`damaged`|When player get hit|
 |`equip`|When player equip armor|
-|`shift`|When player is Sneaking|
+|`unequip`|When player unequip armor|
 |`drop`|When Dropped item|
+|`pickup`|When Pickup dropped item|
+|`consume`|Like consume potion or Eat food|
+|`shoot`|When player use bow|
 |`use`|When use item, just lime consume or right click event|
+|`shift`|When player is Sneaking|
 
 <details open>
 	<summary>Example Configuration</summary>
