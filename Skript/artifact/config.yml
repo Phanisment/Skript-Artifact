@@ -1,6 +1,3 @@
-{
-	"version": 0.1,
+# Configuration File for Skript Artifact
 
-	"abilities_max_slot": 6,
-	"enable_example_items": true
-}
+version: 0.1
