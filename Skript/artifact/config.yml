@@ -1,3 +1,4 @@
 # Configuration File for Skript Artifact
 
 version: 0.1
+list_skill_per_tick: 1
