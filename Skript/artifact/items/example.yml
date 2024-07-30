@@ -2,6 +2,7 @@ items:
   example_item:
     displayname: "Example"
     type: STICK
+    model: 1
     skills:
       dash:
         event: right_click
