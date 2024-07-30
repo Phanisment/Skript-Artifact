@@ -1,14 +1,7 @@
-{
-	"items": [
-		{
-			"permission": "example.wooden_bat",
-			"type": "item",
-			"material": "wooden_sword",
-			"displayname": "Wooden Bat",
-			"model": 1,
-			"abilities": [
-				{"id":"slash", "event":"left_click"}
-			]
-		}
-	]
-}
+items:
+  example_item:
+    displayname: "Example"
+    type: STICK
+    skills:
+      dash:
+        event: right_click
