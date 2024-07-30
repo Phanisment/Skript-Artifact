@@ -43,19 +43,14 @@ Feature:
   <summary>Example File Configuration</summary>
 
 ```json
-{
-  "items": [
-    {
-      "permission": "example.wooden_bat",
-      "type": "wooden_sword",
-      "displayname": "Wooden Bat",
-      "model": 1,
-      "abilities": [
-        {"id":"dash", "event":"right_click"}
-      ]
-    }
-  ]
-}
+items:
+  example_item:
+    displayname: "Example"
+    type: STICK
+    model: 1
+    skills:
+      dash:
+        event: right_click
 ```
 
 </details>
@@ -65,31 +60,18 @@ Feature:
 
 ```
 {
-  display{
-    Name:'{"text":"Wooden Bat","italic":false}'
+  display: {
+    Name: '{"text": "Wooden Bat", "italic": false}'
   },
-  CustomModelData:1,
-  Abilities:[
-    {id:"dash", event:"right_click"}
+  CustomModelData: 1,
+  Abilities: [
+    {id: "dash", event: "right_click"},
+    {id: "berserk", timer: 10}
   ]
 }
 ```
 
 </details>
-
-### Configuration
-<details open>
-  <summary>config.json</summary>
-
-```
-{
-  "version": 0.1,
-}
-```
-
-</details>
-
-
 
 # Plans for Project
 <details close>
