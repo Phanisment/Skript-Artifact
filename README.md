@@ -42,7 +42,7 @@ Feature:
 <details open>
   <summary>Example File Configuration</summary>
 
-```json
+```yml
 items:
   example_item:
     displayname: "Example"
@@ -58,7 +58,7 @@ items:
 <details open>
 <summary>Example Item Nbt</summary>
 
-```
+```json
 {
   display: {
     Name: '{"text": "Wooden Bat", "italic": false}'
