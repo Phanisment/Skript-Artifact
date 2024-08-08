@@ -58,7 +58,7 @@ items:
 <details open>
 <summary>Example Item Nbt</summary>
 
-```json
+```
 {
   display: {
     Name: '{"text": "Wooden Bat", "italic": false}'
